@@ -1,9 +1,5 @@
-import React, { useState } from "react";
+import React from 'react';
 import './LoginSignUp.css'; 
-
-import user_icon from '../Assets/person.png';
-import email_icon from '../Assets/email.png';
-import password_icon from '../Assets/password.png';
 
 const LoginSignUp = () => {
     return (
@@ -17,17 +13,17 @@ const LoginSignUp = () => {
 
             <div className="inputs">
                 <div className="input">
-                    <img src={user_icon} />
+                    <img src= "" />
                         <input type="text" placeholder="Name" />
                 </div>
                     
                 <div className="input">
-                    <img src={email_icon} />
+                    <img src="" />
                     <input type="email" placeholder="Email" />
                 </div>
                 
                 <div className="input">
-                    <img src={password_icon} />
+                    <img src="" />
                     <input type="password" placeholder="Password" />
                 </div>
             </div>
