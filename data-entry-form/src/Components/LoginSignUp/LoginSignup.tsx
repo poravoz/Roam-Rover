@@ -1,6 +1,10 @@
 import React from 'react';
 import './LoginSignUp.css'; 
 
+const person = require('../Assets/person.png');
+const email = require ('../Assets/email.png');
+const password = require('../Assets/password.png')
+
 const LoginSignUp = () => {
     return (
     
@@ -13,17 +17,17 @@ const LoginSignUp = () => {
 
             <div className="inputs">
                 <div className="input">
-                    <img src= "" />
+                    <img src= {person} />
                         <input type="text" placeholder="Name" />
                 </div>
                     
                 <div className="input">
-                    <img src="" />
+                    <img src={email} />
                     <input type="email" placeholder="Email" />
                 </div>
                 
                 <div className="input">
-                    <img src="" />
+                    <img src={password} />
                     <input type="password" placeholder="Password" />
                 </div>
             </div>
