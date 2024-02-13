@@ -3,7 +3,7 @@ import './LoginSignUp.css';
 
 const person = require('../Assets/person.png');
 const email = require ('../Assets/email.png');
-const password = require('../Assets/password.png')
+const password = require('../Assets/password.png');
 
 const LoginSignUp = () => {
     return (
