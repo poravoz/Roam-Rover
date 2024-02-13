@@ -1,4 +1,3 @@
-import React from 'react';
 import './LoginSignUp.css'; 
 
 const person = require('../Assets/person.png');
