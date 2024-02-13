@@ -1,1 +1,0 @@
-export const person = 'person.png';
