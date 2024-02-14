@@ -1,4 +1,4 @@
-import LoginSignUp from './Components/LoginSignUp/LoginSignup';
+import LoginSignUp from './Components/SignUp/Signup';
 
 function App() {
   return (

@@ -1,12 +1,11 @@
-import './LoginSignUp.css'; 
+import './SignUp.css'; 
 
-const person = require('../Assets/person.png');
-const email = require ('../Assets/email.png');
-const password = require('../Assets/password.png');
+import person from '../Assets/person.png';
+import email from '../Assets/email.png';
+import password from '../Assets/password.png';
 
 const LoginSignUp = () => {
-    return (
-    
+    return (    
     <form>
         <div className="container">
             <div className="header">
@@ -16,8 +15,8 @@ const LoginSignUp = () => {
 
             <div className="inputs">
                 <div className="input">
-                    <img src= {person} />
-                        <input type="text" placeholder="Name" />
+                    <img src={person} />
+                    <input type="text" placeholder="Name" />
                 </div>
                     
                 <div className="input">
